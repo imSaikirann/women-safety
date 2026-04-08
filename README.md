@@ -5,6 +5,7 @@
 
 This project analyzes social media tweets to determine whether a location or situation mentioned in the tweet indicates a **Safe** or **Unsafe** environment for women.
 The system uses **Natural Language Processing (NLP)** and a **Machine Learning classification model** to analyze tweet text and predict safety status.
+It also shows **model evaluation graphs** that are useful during project reviews or faculty presentation.
 
 The application is built using:
 
@@ -25,6 +26,12 @@ The application is built using:
 
    * Safe Area
    * Unsafe Area
+6. The app also displays:
+
+   * Accuracy
+   * Precision / Recall / F1-score
+   * Confusion Matrix
+   * Class-wise performance graphs
 
 ---
 
@@ -65,6 +72,7 @@ http://localhost:8501
 ```
 
 Enter a tweet and click **Analyze** to see prediction.
+The page also includes evaluation graphs for explaining model performance.
 
 ---
 
@@ -111,6 +119,7 @@ http://localhost:8501
 * Text Preprocessing
 * Feature Extraction (TF-IDF)
 * Model Training
+* Model Evaluation and Performance Visualization
 * Prediction through Web Interface
 
 ---
